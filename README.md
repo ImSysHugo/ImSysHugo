@@ -1,16 +1,27 @@
-## Hi there 👋
+Um pouco sobre mim... 🚀
 
-<!--
-**ImSysHugo/ImSysHugo** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+```javascript
+const dev = {
+  nome: "Hugo Miguel Moura",
+  idade: 19,
+  localizacao: {
+    pais: "Portugal",
+    cidade: "Porto"
+  },
+  empresa: {
+    nome: "Volphax Inc.",
+    papel: "Co-fundador / Investidor"
+  },
+  especialidades: [
+    "Desenvolvimento Web",
+    "Design Web",
+    "Programação Java (Plugins de Minecraft)"
+  ],
+  contato: "contacto.hugomoura@gmail.com"
+};
 
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+console.log(`Olá! Eu sou ${dev.nome}, tenho ${dev.idade} anos e sou do ${dev.localizacao.cidade}, ${dev.localizacao.pais}.`);
+console.log(`Sou um dos donos da empresa ${dev.empresa.nome}, onde atuo como ${dev.empresa.papel}.`);
+console.log("Trabalho com:");
+dev.especialidades.forEach((skill, i) => console.log(`  ${i + 1}. ${skill}`));
+```
