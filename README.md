@@ -3,14 +3,10 @@ Um pouco sobre mim... 🚀
 ```javascript
 const dev = {
   nome: "Hugo Miguel Moura",
-  idade: 19,
+  idade: 20,
   localizacao: {
     pais: "Portugal",
-    cidade: "Porto"
-  },
-  empresa: {
-    nome: "Volphax Inc.",
-    papel: "Co-fundador / Investidor"
+    cidade: "Amarante"
   },
   especialidades: [
     "Desenvolvimento Web",
