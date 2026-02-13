@@ -9,8 +9,6 @@ const dev = {
     cidade: "Amarante"
   },
   especialidades: [
-    "Desenvolvimento Web",
-    "Design Web",
     "Programação Java (Plugins de Minecraft)"
   ],
   contato: "contacto.hugomoura@gmail.com"
