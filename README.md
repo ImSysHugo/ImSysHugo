@@ -6,7 +6,7 @@ const dev = {
   idade: 20,
   localizacao: {
     pais: "Portugal",
-    cidade: "Amarante"
+    cidade: "Porto"
   },
   especialidades: [
     "Programação Java (Plugins de Minecraft)"
